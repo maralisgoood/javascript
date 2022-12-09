@@ -1,7 +1,7 @@
 // NUMBER DIGITS
 
 // let num = prompt("enter random number: ");
-let num = 682745;
+let num = 68274578;
 function countDigit(num) {
     let count = 0;
     while (num != 0) {
