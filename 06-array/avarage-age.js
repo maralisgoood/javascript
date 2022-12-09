@@ -8,5 +8,5 @@ while (i < ages.length) {
     sum += ages[i]
     i++;
 }
-let avg = sum / ages.length
+let avg = sum / ages.length;
 console.log(avg);
