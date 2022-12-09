@@ -14,4 +14,4 @@ function factorial(n) {
     }
 }
 answer = factorial(n)
-console.log("factorial of " + n + " is " + answer);
+console.log(n + "'s factorial is " + answer);
