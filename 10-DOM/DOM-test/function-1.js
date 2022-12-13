@@ -1,4 +1,3 @@
-/*
 document.getElementById("root").innerHTML = "<h1 class='dummy'>this is h1 tag</h1>";
 
 document.getElementsByClassName("dummy")[0].innerText = "dummy text";
@@ -28,4 +27,3 @@ const newContent = document.createTextNode("Манай сайтад тавтай
 newDiv.appendChild(newContent);
 const main = document.getElementsByTagName("main");
 main[0].appendChild(newDiv);
-*/
