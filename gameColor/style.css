@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 25px;
+  padding: 15px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border: 5px solid cyan;
+  border-radius: 15px;
+}
+
+.box {
+  border-radius: 10px;
+  background-color: lightcoral;
+  width: 30%;
+  height: 30%;
+}
