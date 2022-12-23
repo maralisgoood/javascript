@@ -2,6 +2,8 @@ const form = document.querySelector("form");
 const countriesContainer = document.querySelector(".countries");
 // https://restcountries.com/v3.1/name/$%7Bcountry%7D
 // https://restcountries.com/v3.1/alpha/$%7Bneighbour%7D
+// const btnCountry = document.querySelector(".btn-country");
+// const inputCountry = btnCountry.values;
 
 function renderCountry(country) {
     const html = `<article class="country">
@@ -25,9 +27,8 @@ function renderCountry(country) {
 function getCountry(country) {
     fetch(`https://restcountries.com/v3.1/name/${country}`)
         .then((res) => res.json())
-        .then((data) => {
-            console.log(data[0])
-        });
+        .then((data) => console.log(data[0]));
 }
 
+getCountry(inputCountry);
 getCountry("mongolia");
