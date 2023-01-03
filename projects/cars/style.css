@@ -1,0 +1,16 @@
+main {
+  margin: auto;
+  max-width: 1000px;
+  min-width: 800px;
+  width: 100%;
+}
+
+#carCards {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+img {
+  height: 170px;
+}
